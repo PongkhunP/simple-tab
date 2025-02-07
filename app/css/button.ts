@@ -11,4 +11,7 @@ export const buttonStyles = StyleSheet.create({
         color: "white",
         fontSize: 16,
     },
+    iconButton: {
+        padding: 10,
+    },
 });
