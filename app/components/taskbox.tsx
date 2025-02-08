@@ -13,7 +13,7 @@ interface TaskType {
 const Taskbox = (task : TaskType) => {
   return (
     <View style={taskboxStyles.box}>
-        <View style={generalStyles.text_row}>
+        <View style={generalStyles.row}>
             <Text>{task.title}</Text>
             <Text>{task.due_date}</Text>
         </View>

@@ -7,6 +7,10 @@ export const generalStyles = StyleSheet.create({
         backgroundColor: "#f8f8f8",
         gap: 10
     },
+    sub_container: {
+        flex: 1,
+        gap: 5
+    },
     header: {
         fontSize: 24,
         fontWeight: "bold",
@@ -24,10 +28,17 @@ export const generalStyles = StyleSheet.create({
         fontSize: 17,
         fontWeight: "500",
     },
-    text_row : {
+    row : {
         flexDirection : 'row',
         justifyContent : 'space-between',
         alignSelf : 'stretch'
+    },
+    text_row : {
+        flexDirection : 'row',
+        alignSelf : 'stretch'
+    },
+    row_padding : {
+        gap : 10
     },
     divider: {
         height: 1, // Divider height
@@ -44,4 +55,11 @@ export const generalStyles = StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'flex-start',
     },
+    category_box : {
+        flex: 1,
+        paddingHorizontal : 20,
+        paddingVertical : 15,
+        backgroundColor : 'red',
+        borderRadius : 5
+    }
 });
